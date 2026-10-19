@@ -1,0 +1,34 @@
+crypto-lab/
+│
+├── go.mod
+│
+├── permutation/
+│   └── permutation.go
+│
+├── cipher/
+│   ├── interfaces.go
+│   └── padding.go
+│
+├── feistel/
+│   └── feistel.go
+│
+├── des/
+│   ├── des.go
+│   ├── key_schedule.go
+│   ├── round.go
+│   ├── constants.go
+│   └── adapter.go
+│
+├── deal/
+│   ├── deal.go
+│   ├── round.go
+│   └── constants.go
+│
+├── context/
+│   ├── context.go
+│   ├── modes.go
+│   └── io.go
+│
+└── cmd/
+    └── demo/
+        └── main.go
